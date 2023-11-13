@@ -1,1 +1,211 @@
+.logo{
+
+
+height: auto;
+width: auto;
+float:left;
+}
+
+.Text1{
+	
+	height: auto;
+	width:auto;
+	float: middle;
+	text-align:center;
+	background-color: 27203B;
+	color: #ffffff;
+	padding: 1px 150px 15px;
+	font-size: 25px;
+	font-family: Rozha One;
+	font-style: normal;
+	
+}
+#title{
+	
+	font-family: "Rozha One";
+	font-style: normal;
+	font-size: 30px;
+	margin: 10px;
+}
+
+h1{
+	
+	font-family: "Rozha One";
+	font-style: normal;
+}
+
+h3{
+	
+	font-family: "Rozha One";
+	font-style: normal;
+	font-size: 24px;
+	margin: 10px 150px 10px;
+}
+
+
+*{
+	
+	box-sizing: border-box;
+
+}
+
+.colums{
+	
+	float: left;
+	width: 33.3%;
+	margin-top:20px;
+	padding:5px;
+	
+}
+.columns{
+	
+	float: left;
+	width: 33.3%;
+	padding:5px;
+	
+	
+	
+}
+.price{
+	
+	list-style-type: none;
+	border: 1px solid #eee;
+	margin:0;
+	padding:0;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 100px rgba(0, 0, 0, 0.25);
+	
+	
+}
+
+.price .header{
+	font-size:35px;
+	font-family: "Rozha One";
+	text-align:center;
+}
+
+.price li{
+	padding:10px 10px 10px;
+	margin-bottom: 25px;
+	text-align:center;
+	font-family: "Rozha One";
+}
+.prices{
+	
+	list-style-type: none;
+	border: 1px solid #eee;
+	margin:0;
+	padding:0;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 100px rgba(0, 0, 0, 0.25);
+	
+	
+}
+
+.prices li{
+	
+	padding:25.5px 10px 10px;
+	margin-bottom: 25px;
+	text-align:center;
+	font-family: "Rozha One";
+	
+}
+
+.price .PriceUnit{
+	font-size:30px;
+	color: #276FD0;
+	font-family: Rozha One;	
+	
+}
+.prices .PriceUnit{
+	font-size:30px;
+	color: #276FD0;
+	font-family: Rozha One;	
+	
+}
+.prices:hover{
+	
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+	
+}
+.price:hover{
+	
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+	
+}
+.button{
+	
+	background-color:27203B;
+	color:FFFFFF;
+	border: none;
+	padding:20px;
+	margin:10px 5px;
+	text-align:center;
+	font-size: 18px;
+	border-radius:50px;
+	text-decoration:none;
+}
+.button1{
+	
+	background: #FFFFFF;
+	color:#27203B;
+	border: 4px solid #27203B;
+	padding:20px;
+	margin:10px 5px;
+	text-align:center;
+	font-size: 18px;
+	border-radius:50px;
+	text-decoration:none;
+
+	
+}
+
+
+
+
+.prices .Proheader{
+	font-size:35px;
+	font-family: "Rozha One";
+	text-align:center;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 600px)
+{
+	.columns{
+		width: 100%;
+		
+	}
+	.colums{
+		width: 100%;
+	
+	}
+	.Text1{
+		
+		width: 100%;
+	}
+	
+}
+#Footer{
+position: relative;
+width: 100%;
+height: 100px;
+bottom: 0;
+display: inline-block;
+background: url(footerimage.png);
+background-size: cover;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#back{
+	font-size: 20px;
+	font-family: "Rozha One";
+	margin:0%;
+	padding: 0px 5px 0 0px;
+	float:left;
+}
+#arrow{
+	margin:0%;
+	font-size: 45px;
+
+}
 
